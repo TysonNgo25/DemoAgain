@@ -1,0 +1,16 @@
+<html>
+	<head>
+		<title> Ve tam giac so </title>
+		<script language="Javascript">
+			VeTamGiac(ChieuCao){
+				var n= Number(ChieuCao);
+				//alert(n);
+			}
+		</script>
+	</head>
+	<body>
+		Nhập chiều cao Tam Giác
+		<input type="text" name="txtChieuCao" size="5">
+		<input type="button" name ="btnVe" value="Vẽ" onlick=VeTamGiac(txtChieuCao.value);>
+	</body>
+</html>
